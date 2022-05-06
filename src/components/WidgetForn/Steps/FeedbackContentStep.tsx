@@ -4,7 +4,7 @@ import { ButtonClose } from "../../ButtonClose";
 
 interface FeedbackContentStepProps {
     feedbackType: FeedbackType,
-    onFeedbackRestart: () => {}
+    onFeedbackRestart: () => void
 }
 export function FeedbackContentStep({ feedbackType, onFeedbackRestart }: FeedbackContentStepProps) {
     const feedbackTypeInfo = feedbackTypes[feedbackType]
