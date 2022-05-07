@@ -2,7 +2,11 @@ import express from 'express'
 
 const app = express()
 
-app.get('/users', (req, res) => {
+app.use(express.json())
+
+app.post('/feedbacks', (req, res) => {
+    console.log(req.body);
+
     return res.send('teste')
 })
 
