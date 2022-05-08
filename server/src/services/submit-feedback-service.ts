@@ -13,6 +13,9 @@ export class SubmitFeedbackService {
     ) { }
 
     async submit({ type, comment, screenshot }: SubmitFeedbackServiceRequest) {
+        this.screenshotIsValid(screenshot)
+        this.typeIsValid(type)
+        this.commentIsValid(comment)
         await this.feedbackRepository.create({
             type,
             comment,
@@ -29,5 +32,21 @@ export class SubmitFeedbackService {
         })
     }
 
+    screenshotIsValid(screenshot: string | undefined) {
+        if (screenshot && !screenshot.startsWith('data:image/png;base64')) {
+            throw new Error('Invalid screenshot')
+        }
+    }
 
+    typeIsValid(type: string | undefined) {
+        if (!type) {
+            throw new Error('Type must be defined')
+        }
+    }
+
+    commentIsValid(comment: string | undefined) {
+        if (!comment) {
+            throw new Error('Comment must be defined')
+        }
+    }
 }
