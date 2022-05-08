@@ -1,2 +1,3 @@
 server/prisma/dev.db
 server/package-lock.json
+/node_modules
