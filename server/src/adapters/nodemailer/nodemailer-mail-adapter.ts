@@ -13,8 +13,8 @@ export class NodemailerMailAdapter implements MailAdapter {
 
     async sendMail({ subject, body }: SendMailData) {
         await transport.sendMail({
-            from: 'Equipe feedback <liara@email.com>',
-            to: 'Liara duarte <987.liara@gmail.com>',
+            from: 'Feedback Team <liara@email.com>',
+            to: 'Liara Duarte <liara@gmail.com>',
             subject,
             html: body
         })

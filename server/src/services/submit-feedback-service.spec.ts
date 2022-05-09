@@ -11,7 +11,7 @@ describe('Submit feedback', () => {
     it('should submit feedback', async () => {
         await expect(submitFeedback.submit({
             type: 'bug',
-            comment: 'isso aqui é uma porcaria',
+            comment: 'Is all broken',
             screenshot: 'data:image/png;base64sdhsdfhdh'
         })).resolves.not.toThrow()
 
@@ -22,7 +22,7 @@ describe('Submit feedback', () => {
     it('should not submit feedback without a type', async () => {
         await expect(submitFeedback.submit({
             type: '',
-            comment: 'isso aqui é uma porcaria',
+            comment: 'Is all broken',
             screenshot: 'data:image/png;base64sdhsdfhdh'
         })).rejects.toThrow()
     })
@@ -39,7 +39,7 @@ describe('Submit feedback', () => {
         await expect(submitFeedback.submit({
             type: 'bug',
             comment: 'test comment',
-            screenshot: 'teste.png'
+            screenshot: 'test.png'
         })).rejects.toThrow()
     })
 })
