@@ -1,7 +1,36 @@
 web/node_modules
 web/package-lock.json
+web/.env
 
 server/node_modules
 server/prisma/dev.db
 server/package-lock.json
 server/coverage
+
+# Logs
+web/logs
+web/*.log
+web/npm-debug.log*
+web/yarn-debug.log*
+web/yarn-error.log*
+web/pnpm-debug.log*
+web/lerna-debug.log*
+
+web/dist
+web/dist-ssr
+web/*.local
+
+# Editor directories and files
+web/.vscode/*
+web/!.vscode/extensions.json
+web/.idea
+web/.DS_Store
+web/*.suo
+web/*.ntvs*
+web/*.njsproj
+web/*.sln
+web/*.sw?
+web/package-lock.json
+
+#ENV
+web/.env.local
