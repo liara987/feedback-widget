@@ -4,3 +4,4 @@ web/package-lock.json
 server/node_modules
 server/prisma/dev.db
 server/package-lock.json
+server/coverage
