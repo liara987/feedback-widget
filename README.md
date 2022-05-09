@@ -5,3 +5,6 @@
 
   <h3 align="center">NLW Return - Impulse</h3>
 </p>
+
+## Front-end da aplicação
+<img src="https://github.com/liara987/feedback-widget/blob/master/widget-feedback-working.gif" />
