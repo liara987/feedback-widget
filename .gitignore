@@ -1,5 +1,6 @@
 web/node_modules
 web/package-lock.json
+web/.env
 
 server/node_modules
 server/prisma/dev.db
