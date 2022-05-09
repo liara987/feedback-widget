@@ -27,7 +27,7 @@ export class SubmitFeedbackService {
             body: [
                 `<p> Tipo de feedback: ${type} </p>`,
                 `<p> Comentário: ${comment} </p>`,
-                `<p> Screenshot: ${screenshot} </p>`,
+                screenshot ? `<img src="${screenshot}"/>`: '',
             ].join('\n')
         })
     }
