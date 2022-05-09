@@ -9,7 +9,7 @@ export function FeedbackTypeStep({ onFeedbackTypeChanged }: FeedbackTypeProps) {
     return (
         <>
             <header>
-                <span className="text-xl leading-6">Deixe seu feedback</span>
+                <span className="text-xl leading-6">Give your feedback</span>
                 <ButtonClose />
             </header>
             <div className="flex py-8 gap-2 w-full">
