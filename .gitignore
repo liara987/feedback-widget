@@ -4,7 +4,6 @@ web/.env
 
 server/node_modules
 server/prisma/dev.db
-server/package-lock.json
 server/coverage
 
 # Logs
