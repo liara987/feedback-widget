@@ -11,3 +11,19 @@
 <img src="https://github.com/liara987/feedback-widget/blob/master/frontend-and-backend.gif" alt="Gif of frontend sending data to backend"/>
 
 **🚀 Check out on your browser clicking [here](https://feedback-widget-five-psi.vercel.app/)**
+
+## 🖼️ Front-end technologies
+- [Tailwind](https://tailwindcss.com/)
+- [Vite](https://vitejs.dev/)
+- [Axios](https://axios-http.com/docs/intro)
+- [React](https://reactjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Vercel](https://vercel.com/docs)
+
+## ⚙️ Back-end technologies
+- [SWC](https://swc.rs/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Jest](https://jestjs.io/)
+- [Prisma](https://www.prisma.io/)
+- [Nodemailer](https://nodemailer.com/about/)
+- [Railway](https://railway.app/)
