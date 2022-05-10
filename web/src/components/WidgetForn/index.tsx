@@ -59,7 +59,7 @@ export function WidgetForm() {
                 </>
             )}
             <footer className="text-xs text-neutral-400">
-                Made with ♥ for <a className="underline underline-offset-1" href="https://github.com/liara987">Liara</a>
+                Made with ♥ by <a className="underline underline-offset-1" href="https://github.com/liara987">Liara</a>
             </footer>
         </div>
     )
