@@ -8,6 +8,6 @@
 </p>
 
 ## Front-end
-<img src="https://github.com/liara987/feedback-widget/blob/master/widget-feedback-working.gif" />
+<img src="https://github.com/liara987/feedback-widget/blob/master/frontend-and-backend.gif" />
 
 **🚀 Check out on your browser clicking [here](https://feedback-widget-five-psi.vercel.app/)**
