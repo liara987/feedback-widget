@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://rocketseat.com.br">
-    <img src="https://s3-sa-east-1.amazonaws.com/rocketseat-cdn/rocketseat_logo_roxa.png" alt="Logo">
+    <img src="https://global-uploads.webflow.com/61d83a2ebb0ae01ab96e841a/624ecae7654d9a4a772ad79d_astronauta%2Bcode-NLW-Return.png" width="250px" alt="Logo">
   </a>
 
   <h3 align="center">NLW Return - Impulse</h3>
