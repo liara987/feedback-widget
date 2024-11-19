@@ -1,29 +1,46 @@
 <p align="center">
-  <a href="https://rocketseat.com.br">
-    <img src="https://global-uploads.webflow.com/61d83a2ebb0ae01ab96e841a/624ecae7654d9a4a772ad79d_astronauta%2Bcode-NLW-Return.png" width="250px" alt="Logo">
-  </a>
-
-  <h3 align="center">NLW Return - Impulse</h3>
-  This application was developer in one week on the event called Next Level Week promoted by Rocketseat. It's a full stack application of a widget where the user can select a type of feedbacks, make a comment, take a screenshot with just one click and is sent to the backend where the data is sent to the owner email containing the screenshot, the type and description.
+  <h3 align="center"> FeedbackWidget - Simplify Feedback Submission</h3>
+  FeedbackWidget is a Full-Stack application that allows users to share feedback quickly and intuitively. Whether it's reporting an issue, suggesting improvements, or giving praise, the widget is designed to seamlessly integrate into any website, providing a smooth and functional experience.
 </p>
 
-## Front-end and Back-end
+### Screenshot
 <img src="https://github.com/liara987/feedback-widget/blob/master/frontend-and-backend.gif" alt="Gif of frontend sending data to backend"/>
 
-**🚀 Check out on your browser clicking [here](https://feedback-widget-five-psi.vercel.app/)**
+### Key Features
+**Feedback Type Selection:** Users can choose categories like "Issue," "Idea," or "Others."
 
-## 🖼️ Front-end technologies
-- [Tailwind](https://tailwindcss.com/)
-- [Vite](https://vitejs.dev/)
-- [Axios](https://axios-http.com/docs/intro)
-- [React](https://reactjs.org/)
-- [Typescript](https://www.typescriptlang.org/)
-- [Vercel](https://vercel.com/docs)
+**Custom Comments:** A text field for users to detail their feedback, enabling precise descriptions of issues or suggestions.
 
-## ⚙️ Back-end technologies
-- [SWC](https://swc.rs/)
-- [Typescript](https://www.typescriptlang.org/)
-- [Jest](https://jestjs.io/)
-- [Prisma](https://www.prisma.io/)
-- [Nodemailer](https://nodemailer.com/about/)
-- [Railway](https://railway.app/)
+**Screenshot Attachment:** Built-in functionality to capture and attach screenshots to the feedback.
+
+**Quick and Secure Submission:** Data is sent to the backend for efficient processing and storage.
+
+### Technologies Used
+
+#### Frontend:
+**Tailwind CSS:** For responsive styling and modern design.
+
+**Vite:** Build tool for faster development.
+
+**React with TypeScript:** Used to create modular, secure, and reusable components.
+
+**Axios:** To enable efficient communication with the backend.
+
+#### Hosting
+Deployed on Vercel for high availability and performance.
+
+#### Backend:
+**SWC (Speedy Web Compiler):** For compiling and optimizing TypeScript code at high performance.
+
+**TypeScript:** Ensures a robust and scalable backend.
+
+**Jest:** Unit tests implementation to guarantee code quality.
+
+**Prisma:** ORM for efficient database management.
+
+**Nodemailer:** Sends email notifications to confirm feedback receipt or communicate with administrators.
+
+**Railway:** Scalable and easy-to-manage backend infrastructure hosting.
+
+### Objective
+FeedbackWidget streamlines the feedback collection process, enhancing communication between users and website or system administrators. Designed to be lightweight, functional, and secure, the widget is ideal for businesses and developers looking to improve user experience and address needs quickly and effectively.
